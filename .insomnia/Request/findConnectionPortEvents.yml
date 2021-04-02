@@ -1,0 +1,33 @@
+_id: findConnectionPortEvents
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763c5497bca
+modified: 1617357789915
+created: 1617357789915
+url: "{{ base_url }}/connections/{{ connection_id }}/ports/{{ id }}/events"
+name: Retrieve connection port events
+description: Returns a list of the connection port events
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+  - name: page
+    disabled: true
+    value: "1"
+  - name: per_page
+    disabled: true
+    value: "10"
+headers: []
+authentication: {}
+metaSortKey: -1617357789915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

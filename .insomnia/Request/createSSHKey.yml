@@ -1,0 +1,30 @@
+_id: createSSHKey
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763f4547da2
+modified: 1617357789255
+created: 1617357789255
+url: "{{ base_url }}/ssh-keys"
+name: Create a ssh key for the current user
+description: Creates a ssh key.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "label": "string",
+      "key": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789255
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,12 @@
+_id: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763e0c52686
+type: RequestGroup
+parentId: wrk_4927d0e0404d4fc9b977fd3a6ec81763
+modified: 1617357790136
+created: 1617357790136
+name: HardwareReservations
+description: Hardware Reservation Management. Check out the product docs to
+  learn more about [Reserved
+  Hardware](https://metal.equinix.com/developers/docs/deploy/reserved/).
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1617357790136

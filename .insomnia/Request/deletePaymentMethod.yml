@@ -1,0 +1,21 @@
+_id: deletePaymentMethod
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176334933272
+modified: 1617357789443
+created: 1617357789443
+url: "{{ base_url }}/payment-methods/{{ id }}"
+name: Delete the payment method
+description: Deletes the payment method.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789443
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

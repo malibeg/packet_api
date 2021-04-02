@@ -1,0 +1,27 @@
+_id: findSpotMarketPrices
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763569bbd75
+modified: 1617357789289
+created: 1617357789289
+url: "{{ base_url }}/market/spot/prices"
+name: Get current spot market prices
+description: Get Equinix Metal current spot market prices.
+method: GET
+body: {}
+parameters:
+  - name: facility
+    disabled: true
+    value: string
+  - name: plan
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789289
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

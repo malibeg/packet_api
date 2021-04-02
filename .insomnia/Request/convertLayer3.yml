@@ -1,0 +1,31 @@
+_id: convertLayer3
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176316c2eb4d
+modified: 1617357789366
+created: 1617357789366
+url: "{{ base_url }}/ports/{{ id }}/convert/layer-3"
+name: Convert to Layer 3
+description: Converts a bond port to Layer 3. VLANs must first be unassigned.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "request_ips": [
+        null
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789366
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

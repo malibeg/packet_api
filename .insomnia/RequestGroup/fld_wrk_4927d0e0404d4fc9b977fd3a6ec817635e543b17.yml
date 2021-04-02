@@ -1,0 +1,13 @@
+_id: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817635e543b17
+type: RequestGroup
+parentId: wrk_4927d0e0404d4fc9b977fd3a6ec81763
+modified: 1617357790169
+created: 1617357790169
+name: BGP
+description: Manage BGP configs and sessions. See device endpoints to create and
+  list BGP sessions for a particular device. Check out the product docs to learn
+  more about [Local and Global
+  BGP](https://metal.equinix.com/developers/docs/networking/local-global-bgp/).
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1617357790169

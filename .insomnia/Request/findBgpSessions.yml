@@ -1,0 +1,21 @@
+_id: findBgpSessions
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789980
+created: 1617357789980
+url: "{{ base_url }}/devices/{{ id }}/bgp/sessions"
+name: Retrieve all BGP sessions
+description: Provides a listing of available BGP sessions for the device.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789980
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: findTraffic
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789152
+created: 1617357789152
+url: "{{ base_url }}/devices/{{ id }}/traffic"
+name: Retrieve device traffic
+description: Returns traffic for a specific device.
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "started_at": "2021-04-02T10:03:09.086Z",
+      "ended_at": "2021-04-02T10:03:09.086Z"
+    }
+parameters:
+  - name: direction
+    disabled: false
+    value: string
+  - name: interval
+    disabled: true
+    value: string
+  - name: bucket
+    disabled: true
+    value: string
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789152
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

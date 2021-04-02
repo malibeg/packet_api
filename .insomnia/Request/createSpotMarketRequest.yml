@@ -1,0 +1,77 @@
+_id: createSpotMarketRequest
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357789281
+created: 1617357789281
+url: "{{ base_url }}/projects/{{ id }}/spot-market-requests"
+name: Create a spot market request
+description: >-
+  Creates a new spot market request.
+
+
+  Type-specific options (such as operating_system for baremetal devices) should be included in the main data structure alongside hostname and plan.
+
+
+  The features attribute allows you to optionally specify what features your server should have. For example, if you require a server with a TPM chip, you may specify `{ "features": { "tpm": "required" } }` (or `{ "features": ["tpm"] }` in shorthand).
+
+
+  The request will fail if there are no available servers matching your criteria. Alternatively, if you do not require a certain feature, but would prefer to be assigned a server with that feature if there are any available, you may specify that feature with a preferred value (see the example request below).
+
+
+  The request will not fail if we have no servers with that feature in our inventory.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "instance_attributes": {
+        "plan": "string",
+        "hostname": "string",
+        "hostnames": [
+          "string"
+        ],
+        "description": "string",
+        "billing_cycle": "string",
+        "operating_system": "string",
+        "always_pxe": true,
+        "userdata": "string",
+        "locked": true,
+        "termination_time": "2021-04-02T10:03:09.086Z",
+        "tags": [
+          "string"
+        ],
+        "project_ssh_keys": [
+          "string"
+        ],
+        "user_ssh_keys": [
+          "string"
+        ],
+        "features": [
+          "string"
+        ],
+        "customdata": {},
+        "public_ipv4_subnet_size": 0,
+        "private_ipv4_subnet_size": 0
+      },
+      "devices_min": 0,
+      "devices_max": 0,
+      "max_bid_price": 0,
+      "end_at": "2021-04-02T10:03:09.086Z",
+      "facilities": [
+        "string"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: findInvitations1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176357f2b181
+modified: 1617357789649
+created: 1617357789649
+url: "{{ base_url }}/invitations"
+name: Retrieve current user invitations
+description: Returns all invitations in current user.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+  - name: page
+    disabled: true
+    value: "1"
+  - name: per_page
+    disabled: true
+    value: "10"
+headers: []
+authentication: {}
+metaSortKey: -1617357789649
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

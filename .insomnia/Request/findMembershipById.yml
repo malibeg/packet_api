@@ -1,0 +1,27 @@
+_id: findMembershipById
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763e351fc50
+modified: 1617357789578
+created: 1617357789578
+url: "{{ base_url }}/memberships/{{ id }}"
+name: Retrieve a membership
+description: Returns a single membership.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

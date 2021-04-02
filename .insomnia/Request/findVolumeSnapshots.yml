@@ -1,0 +1,28 @@
+_id: findVolumeSnapshots
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789186
+created: 1617357789186
+url: "{{ base_url }}/storage/{{ id }}/snapshots"
+name: Retrieve all volume snapshot
+description: Returns a list of the current volume’s snapshots. To create Volume
+  Snapshots, please check the Volume Snapshot Policies feature.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789186
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

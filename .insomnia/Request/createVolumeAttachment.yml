@@ -1,0 +1,29 @@
+_id: createVolumeAttachment
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789206
+created: 1617357789206
+url: "{{ base_url }}/storage/{{ id }}/attachments"
+name: Attach your volume
+description: Attach your volume to a device.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "device_id": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

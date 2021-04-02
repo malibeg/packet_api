@@ -1,0 +1,28 @@
+_id: findInvitationById
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639b69a35a
+modified: 1617357789758
+created: 1617357789758
+url: "{{ base_url }}/invitations/{{ id }}"
+name: View an invitation
+description: Returns a single invitation. (It include the `invitable` to
+  maintain backward compatibility but will be removed soon)
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

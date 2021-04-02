@@ -1,0 +1,21 @@
+_id: findOrganizationCustomdata
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176307605242
+modified: 1617357789564
+created: 1617357789564
+url: "{{ base_url }}/organizations/{{ id }}/customdata"
+name: Retrieve the custom metadata of an organization
+description: Provides the custom metadata stored for this organization in json format
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

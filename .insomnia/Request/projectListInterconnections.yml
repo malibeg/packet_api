@@ -1,0 +1,21 @@
+_id: projectListInterconnections
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817638f3509b6
+modified: 1617357789815
+created: 1617357789815
+url: "{{ base_url }}/projects/{{ project_id }}/connections"
+name: List project connections
+description: List the connections belonging to the project
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789815
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: findDeviceCustomdata
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789556
+created: 1617357789556
+url: "{{ base_url }}/devices/{{ id }}/customdata"
+name: Retrieve the custom metadata of an instance
+description: Provides the custom metadata stored for this instance in json format
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

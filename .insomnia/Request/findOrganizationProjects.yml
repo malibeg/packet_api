@@ -1,0 +1,33 @@
+_id: findOrganizationProjects
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176307605242
+modified: 1617357789335
+created: 1617357789335
+url: "{{ base_url }}/organizations/{{ id }}/projects"
+name: Retrieve all projects of an organization
+description: Returns a collection of projects that belong to the organization.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+  - name: page
+    disabled: true
+    value: "1"
+  - name: per_page
+    disabled: true
+    value: "10"
+headers: []
+authentication: {}
+metaSortKey: -1617357789335
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

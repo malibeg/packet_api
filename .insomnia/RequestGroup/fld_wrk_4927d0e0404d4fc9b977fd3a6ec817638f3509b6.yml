@@ -1,0 +1,12 @@
+_id: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817638f3509b6
+type: RequestGroup
+parentId: wrk_4927d0e0404d4fc9b977fd3a6ec81763
+modified: 1617357790159
+created: 1617357790159
+name: Connections
+description: Network Interconnections. See Instructions to create Network
+  Interconnections at Check out the product docs to learn more about [Equinix
+  Fabric](https://metal.equinix.com/developers/docs/networking/fabric/).
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1617357790159

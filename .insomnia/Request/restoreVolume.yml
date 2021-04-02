@@ -1,0 +1,24 @@
+_id: restoreVolume
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789163
+created: 1617357789163
+url: "{{ base_url }}/storage/{{ id }}/restore"
+name: Restore volume
+description: Restore the volume to the given snapshot.
+method: POST
+body: {}
+parameters:
+  - name: restore_point
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789163
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

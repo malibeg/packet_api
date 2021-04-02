@@ -1,0 +1,27 @@
+_id: updateVolumeSnapshotPolicy
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789178
+created: 1617357789178
+url: "{{ base_url }}/storage/snapshot-policies/{{ id }}"
+name: Update the volume snapshot policy
+description: Updates the volume snapshot policy.
+method: PUT
+body: {}
+parameters:
+  - name: snapshot_count
+    disabled: true
+    value: "0"
+  - name: snapshot_frequency
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

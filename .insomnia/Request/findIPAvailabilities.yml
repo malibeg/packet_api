@@ -1,0 +1,24 @@
+_id: findIPAvailabilities
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763eca8307f
+modified: 1617357789630
+created: 1617357789630
+url: "{{ base_url }}/ips/{{ id }}/available"
+name: Retrieve all available subnets of a particular reservation
+description: Provides a list of IP resevations for a single project.
+method: GET
+body: {}
+parameters:
+  - name: cidr
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789630
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

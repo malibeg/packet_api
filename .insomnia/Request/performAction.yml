@@ -1,0 +1,26 @@
+_id: performAction
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789876
+created: 1617357789876
+url: "{{ base_url }}/devices/{{ id }}/actions"
+name: Perform an action
+description: "Performs an action for the given device.  Possible actions
+  include: power_on, power_off, reboot, reinstall, and rescue (reboot the device
+  into rescue OS.)"
+method: POST
+body: {}
+parameters:
+  - name: type
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

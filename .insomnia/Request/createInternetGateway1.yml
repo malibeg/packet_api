@@ -1,0 +1,24 @@
+_id: createInternetGateway1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639d54afad
+modified: 1617357789763
+created: 1617357789763
+url: "{{ base_url }}/virtual-networks/{{ id }}/internet-gateways"
+name: Create an internet gateway
+description: Creates an internet gateway.
+method: POST
+body: {}
+parameters:
+  - name: length
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

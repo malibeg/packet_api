@@ -1,0 +1,21 @@
+_id: deleteVolumeSnapshotPolicy
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789176
+created: 1617357789176
+url: "{{ base_url }}/storage/snapshot-policies/{{ id }}"
+name: Delete the volume snapshot policy
+description: Deletes the volume snapshot policy.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

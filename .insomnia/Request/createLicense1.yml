@@ -1,0 +1,31 @@
+_id: createLicense1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763ee92c8a4
+modified: 1617357789593
+created: 1617357789593
+url: "{{ base_url }}/projects/{{ id }}/licenses"
+name: Create a License
+description: Creates a new license for the given project
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "description": "string",
+      "size": 0,
+      "licensee_product_id": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789593
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

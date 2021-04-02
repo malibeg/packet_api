@@ -1,0 +1,89 @@
+_id: createDevice1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617358206397
+created: 1617357789856
+url: "{{ base_url }}/projects/018b422b-02a0-440e-9cb3-f07d4828a04f/devices"
+name: Create a device
+description: >
+  Creates a new device and provisions it in our datacenter.
+
+
+  Type-specific options (such as operating_system for baremetal devices) should be included in the main data structure alongside hostname and plan.
+
+
+  The features attribute allows you to optionally specify what features your server should have.
+
+
+  For example, if you require a server with a TPM chip, you may specify `{ "features": { "tpm": "required" } }` (or `{ "features": ["tpm"] }` in shorthand).
+
+
+  The request will fail if there are no available servers matching your criteria. Alternatively, if you do not require a certain feature, but would prefer to be assigned a server with that feature if there are any available, you may specify that feature with a preferred value (see the example request below).
+
+
+  The request will not fail if we have no servers with that feature in our inventory.
+
+
+  The facilities attribute specifies in what datacenter you wish to create the device.
+
+
+  You can either specify a single facility `{ "facility": "f1" }` , or you can instruct to create the device in the best available datacenter `{ "facility": "any" }`. Additionally it is possible to set a prioritized location selection.
+
+
+  For example `{ "facility": ["f3", "f2", "any"] }` will try to assign to the facility f3, if there are no available f2, and so on. If "any" is not specified for "facility", the request will fail unless it can assign in the selected locations.
+
+
+  The `ip_addresses attribute will allow you to specify the addresses you want created with your device.
+
+
+  To maintain backwards compatibility, If the attribute is not sent in the request, it will be treated as if `{ "ip_addresses": [{ "address_family": 4, "public": true }, { "address_family": 4, "public": false }, { "address_family": 6, "public": true }] }` was sent.
+
+
+  The private IPv4 address is required and always need to be sent in the array. Not all operating systems support no public IPv4 address, so in those cases you will receive an error message.
+
+
+  For example, to only configure your server with a private IPv4 address, you can send `{ "ip_addresses": [{ "address_family": 4, "public": false }] }`.
+
+
+  Note: when specifying a subnet size larger than a /30, you will need to supply the UUID(s) of existing ip_reservations in your project to assign IPs from.
+
+
+  For example, `{ "ip_addresses": [..., {"address_family": 4, "public": true, "ip_reservations": ["uuid1", "uuid2"]}] }`
+
+
+  To access a server without public IPs, you can use our Out-of-Band console access (SOS) or use another server with public IPs as a proxy.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"plan": "c1.small.x86",
+    	"operating_system": "coreos_stable",
+    	"facility": "ewr1",
+    	"userdata": "#!/bin/bash\ncecho 'hello world'",
+    	"tags": [
+    		"muhamed",
+    		"c1"
+    	],
+    	"locked": false,
+    	"no_ssh_keys": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+    id: pair_544e723a98ad47b582d5567b5ea012a4
+  - name: X-Auth-Token
+    value: Fhv4rB3V835dGbJ8ufkiYon8Sdab4W5J
+    description: ""
+    id: pair_76a083f043404dc88bc036553fe03c1a
+authentication: {}
+metaSortKey: -1617357789856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

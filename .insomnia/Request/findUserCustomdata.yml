@@ -1,0 +1,21 @@
+_id: findUserCustomdata
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176357f2b181
+modified: 1617357789560
+created: 1617357789560
+url: "{{ base_url }}/users/{{ id }}/customdata"
+name: Retrieve the custom metadata of a user
+description: Provides the custom metadata stored for this user in json format
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789560
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

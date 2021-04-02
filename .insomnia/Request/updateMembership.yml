@@ -1,0 +1,31 @@
+_id: updateMembership
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763e351fc50
+modified: 1617357789575
+created: 1617357789575
+url: "{{ base_url }}/memberships/{{ id }}"
+name: Update the membership
+description: Updates the membership.
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "role": [
+        "string"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789575
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

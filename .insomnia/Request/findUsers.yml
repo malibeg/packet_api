@@ -1,0 +1,34 @@
+_id: findUsers
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176357f2b181
+modified: 1617357789129
+created: 1617357789129
+url: "{{ base_url }}/users"
+name: Retrieve all users
+description: Returns a list of users that the are accessible to the current user
+  (all users in the current user’s projects, essentially).
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+  - name: page
+    disabled: true
+    value: "1"
+  - name: per_page
+    disabled: true
+    value: "10"
+headers: []
+authentication: {}
+metaSortKey: -1617357789129
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

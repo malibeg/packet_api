@@ -1,0 +1,24 @@
+_id: consumeVerificationRequest
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639914f7ad
+modified: 1617357789120
+created: 1617357789120
+url: "{{ base_url }}/verify-email"
+name: Verify a user using an email verification token
+description: Consumes an email verification token and verifies the user associated with it.
+method: PUT
+body: {}
+parameters:
+  - name: token
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

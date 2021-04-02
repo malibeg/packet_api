@@ -1,0 +1,21 @@
+_id: findOperatingSystemVersion
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763581cef25
+modified: 1617357789513
+created: 1617357789513
+url: "{{ base_url }}/operating-system-versions"
+name: Retrieve all operating system versions
+description: Provides a listing of available operating system versions.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789513
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: findFacilities
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639d0a833e
+modified: 1617357789902
+created: 1617357789902
+url: "{{ base_url }}/facilities"
+name: Retrieve all facilities
+description: Provides a listing of available datacenters where you can provision
+  Packet devices.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: address
+headers: []
+authentication: {}
+metaSortKey: -1617357789902
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

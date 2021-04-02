@@ -1,0 +1,27 @@
+_id: findIPReservations1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763eca8307f
+modified: 1617357789624
+created: 1617357789624
+url: "{{ base_url }}/projects/{{ id }}/ips"
+name: Retrieve all ip reservations
+description: Provides a list of IP resevations for a single project.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789624
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

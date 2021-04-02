@@ -1,0 +1,44 @@
+_id: requestIPReservation1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763eca8307f
+modified: 1617357789616
+created: 1617357789616
+url: "{{ base_url }}/projects/{{ id }}/ips"
+name: Requesting IP reservations
+description: Request more IP space for a project in order to have additional IP
+  addresses to assign to devices.  If the request is within the max quota, an IP
+  reservation will be created. If the project will exceed its IP quota, a
+  request will be submitted for review, and will return an IP Reservation with a
+  `state` of `pending`. You can automatically have the request fail with HTTP
+  status 422 instead of triggering the review process by providing the
+  `fail_on_approval_required` parameter set to `true` in the request.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "type": "string",
+      "quantity": 0,
+      "comments": "string",
+      "facility": "string",
+      "customdata": {},
+      "tags": [
+        "string"
+      ],
+      "details": "string",
+      "fail_on_approval_required": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789616
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

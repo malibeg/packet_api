@@ -1,0 +1,21 @@
+_id: deleteEmail
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176347355839
+modified: 1617357789091
+created: 1617357789091
+url: "{{ base_url }}/emails/{{ id }}"
+name: Delete the email
+description: Deletes the email.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789091
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

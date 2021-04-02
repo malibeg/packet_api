@@ -1,0 +1,26 @@
+_id: cloneVolume
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789161
+created: 1617357789161
+url: "{{ base_url }}/storage/{{ id }}/clone"
+name: Clone volume/snapshot
+description: Clone your volume or snapshot into a new volume. To clone the
+  volume, send an empty body. To promote a volume snapshot into a new volume,
+  include the snapshot_timestamp attribute in the request body.
+method: POST
+body: {}
+parameters:
+  - name: snapshot_timestamp
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789161
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

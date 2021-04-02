@@ -1,0 +1,30 @@
+_id: createBgpSession
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789975
+created: 1617357789975
+url: "{{ base_url }}/devices/{{ id }}/bgp/sessions"
+name: Create a BGP session
+description: Creates a BGP session.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "address_family": "ipv4",
+      "default_route": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789975
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: findIPReservationCustomdata
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357789546
+created: 1617357789546
+url: "{{ base_url }}/projects/{{ project_id }}/ips/{{ id }}/customdata"
+name: Retrieve the custom metadata of an IP Reservation
+description: Provides the custom metadata stored for this IP Reservation in json format
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789546
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: createConnectionPortVirtualCircuit
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817638f3509b6
+modified: 1617357789782
+created: 1617357789782
+url: "{{ base_url }}/connections/{{ connection_id }}/ports/{{ port_id
+  }}/virtual-circuits"
+name: Create a new Virtual Circuit
+description: Create a new Virtual Circuit on a dedicated connection using a
+  Virtual Network record and an NNI VLAN value.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "description": "string",
+      "name": "string",
+      "speed": 0,
+      "tags": [
+        "string"
+      ],
+      "vnid": "string",
+      "nni_vlan": 0,
+      "project": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

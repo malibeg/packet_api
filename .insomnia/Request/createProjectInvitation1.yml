@@ -1,0 +1,36 @@
+_id: createProjectInvitation1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357789707
+created: 1617357789707
+url: "{{ base_url }}/projects/{{ project_id }}/invitations"
+name: Create an invitation for a project
+description: In order to add a user to a project, they must first be invited.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "invitee": "string",
+      "message": "string",
+      "roles": [
+        "string"
+      ],
+      "projects_ids": [
+        "string"
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789707
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

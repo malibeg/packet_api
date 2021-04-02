@@ -1,0 +1,21 @@
+_id: findCapacityForFacility
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176345bd908d
+modified: 1617357789961
+created: 1617357789961
+url: "{{ base_url }}/capacity"
+name: View capacity
+description: Returns a list of facilities and plans with their current capacity.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

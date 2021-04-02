@@ -1,0 +1,24 @@
+_id: bondPort
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176316c2eb4d
+modified: 1617357789379
+created: 1617357789379
+url: "{{ base_url }}/ports/{{ id }}/bond"
+name: Enabling bonding
+description: Enabling bonding for one or all ports
+method: POST
+body: {}
+parameters:
+  - name: bulk_enable
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1617357789379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

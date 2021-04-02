@@ -1,0 +1,35 @@
+_id: updateVirtualCircuit
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817638f3509b6
+modified: 1617357789771
+created: 1617357789771
+url: "{{ base_url }}/virtual-circuits/{{ id }}"
+name: Update a virtual circuit
+description: Update the details of a virtual circuit.
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "description": "string",
+      "name": "string",
+      "speed": "string",
+      "tags": [
+        "string"
+      ],
+      "vnid": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

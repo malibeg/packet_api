@@ -1,0 +1,30 @@
+_id: updateLicense
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763ee92c8a4
+modified: 1617357789589
+created: 1617357789589
+url: "{{ base_url }}/licenses/{{ id }}"
+name: Update the license
+description: Updates the license.
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "description": "string",
+      "size": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

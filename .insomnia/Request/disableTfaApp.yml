@@ -1,0 +1,21 @@
+_id: disableTfaApp
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817634bfc4643
+modified: 1617357789158
+created: 1617357789158
+url: "{{ base_url }}/user/otp/app"
+name: Disable two factor authentication
+description: Disables two factor authentication.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

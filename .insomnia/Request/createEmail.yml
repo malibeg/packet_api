@@ -1,0 +1,29 @@
+_id: createEmail
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176347355839
+modified: 1617357789100
+created: 1617357789100
+url: "{{ base_url }}/emails"
+name: Create an email
+description: Add a new email address to the current user.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "address": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: assignPort1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639d54afad
+modified: 1617357789407
+created: 1617357789407
+url: "{{ base_url }}/ports/{{ id }}/assign"
+name: Assign a port to virtual network
+description: Assign a port for a hardware to virtual network.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "vnid": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789407
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

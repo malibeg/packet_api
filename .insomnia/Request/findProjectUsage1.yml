@@ -1,0 +1,27 @@
+_id: findProjectUsage1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176394c34541
+modified: 1617357789133
+created: 1617357789133
+url: "{{ base_url }}/projects/{{ id }}/usages"
+name: Retrieve all usages for project
+description: Returns all usages for a project.
+method: GET
+body: {}
+parameters:
+  - name: created[after]
+    disabled: true
+    value: string
+  - name: created[before]
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

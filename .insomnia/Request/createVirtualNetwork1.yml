@@ -1,0 +1,31 @@
+_id: createVirtualNetwork1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639d54afad
+modified: 1617357789112
+created: 1617357789112
+url: "{{ base_url }}/projects/{{ id }}/virtual-networks"
+name: Create a virtual network
+description: Creates an virtual network.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "project_id": "string",
+      "description": "string",
+      "facility": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789112
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

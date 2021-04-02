@@ -1,0 +1,24 @@
+_id: validateUserdata
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639735ae5c
+modified: 1617357789131
+created: 1617357789131
+url: "{{ base_url }}/userdata/validate"
+name: Validate user data
+description: Validates user data (Userdata)
+method: POST
+body: {}
+parameters:
+  - name: userdata
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789131
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

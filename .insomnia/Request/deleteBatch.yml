@@ -1,0 +1,26 @@
+_id: deleteBatch
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176330925eec
+modified: 1617357790006
+created: 1617357790006
+url: "{{ base_url }}/batches/{{ id }}"
+name: Delete the Batch
+description: Deletes the Batch.
+method: DELETE
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357790006
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

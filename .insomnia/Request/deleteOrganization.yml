@@ -1,0 +1,21 @@
+_id: deleteOrganization
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176307605242
+modified: 1617357789492
+created: 1617357789492
+url: "{{ base_url }}/organizations/{{ id }}"
+name: Delete the organization
+description: Deletes the organization.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

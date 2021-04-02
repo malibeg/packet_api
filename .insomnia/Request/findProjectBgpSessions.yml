@@ -1,0 +1,21 @@
+_id: findProjectBgpSessions
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357789985
+created: 1617357789985
+url: "{{ base_url }}/projects/{{ id }}/bgp/sessions"
+name: Retrieve all BGP sessions for project
+description: Provides a listing of available BGP sessions for the project.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789985
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

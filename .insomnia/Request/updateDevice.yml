@@ -1,0 +1,40 @@
+_id: updateDevice
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789847
+created: 1617357789847
+url: "{{ base_url }}/devices/{{ id }}"
+name: Update the device
+description: Updates the device.
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "hostname": "string",
+      "description": "string",
+      "billing_cycle": "string",
+      "userdata": "string",
+      "locked": true,
+      "tags": [
+        "string"
+      ],
+      "always_pxe": true,
+      "ipxe_script_url": "string",
+      "spot_instance": true,
+      "customdata": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789847
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

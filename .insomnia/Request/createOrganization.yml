@@ -1,0 +1,37 @@
+_id: createOrganization
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176307605242
+modified: 1617357789503
+created: 1617357789503
+url: "{{ base_url }}/organizations"
+name: Create an organization
+description: Creates an organization.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "description": "string",
+      "website": "string",
+      "twitter": "string",
+      "logo": "string",
+      "address": null,
+      "billing_address": null,
+      "customdata": {},
+      "enforce_2fa_at": "2021-04-02T10:03:09.085Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789503
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: assignNativeVlan
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176316c2eb4d
+modified: 1617357789358
+created: 1617357789358
+url: "{{ base_url }}/ports/{{ id }}/native-vlan"
+name: Assign a native VLAN
+description: Sets a virtual network on this port as a "native VLAN". The VLAN
+  must have already been assigned using the using the "Assign a port to a
+  virtual network" operation.
+method: POST
+body: {}
+parameters:
+  - name: vnid
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789358
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: findTransferRequestById
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763eb9c5e6e
+modified: 1617357789143
+created: 1617357789143
+url: "{{ base_url }}/transfers/{{ id }}"
+name: View a transfer request
+description: Returns a single transfer request.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789143
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

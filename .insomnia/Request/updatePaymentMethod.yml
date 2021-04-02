@@ -1,0 +1,34 @@
+_id: updatePaymentMethod
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176334933272
+modified: 1617357789447
+created: 1617357789447
+url: "{{ base_url }}/payment-methods/{{ id }}"
+name: Update the payment method
+description: Updates the payment method.
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "default": true,
+      "cardholder_name": "string",
+      "expiration_month": "string",
+      "expiration_year": 0,
+      "billing_address": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789447
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

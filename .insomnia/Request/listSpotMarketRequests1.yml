@@ -1,0 +1,21 @@
+_id: listSpotMarketRequests1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763d7740b48
+modified: 1617357789269
+created: 1617357789269
+url: "{{ base_url }}/projects/{{ id }}/spot-market-requests"
+name: List spot market requests
+description: View all spot market requests for a given project.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789269
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

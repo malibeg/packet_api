@@ -1,0 +1,29 @@
+_id: convertLayer2
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176316c2eb4d
+modified: 1617357789372
+created: 1617357789372
+url: "{{ base_url }}/ports/{{ id }}/convert/layer-2"
+name: Convert to Layer 2
+description: Converts a bond port to Layer 2. IP assignments of the port will be removed.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "vnid": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

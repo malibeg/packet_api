@@ -1,0 +1,11 @@
+_id: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763ee92c8a4
+type: RequestGroup
+parentId: wrk_4927d0e0404d4fc9b977fd3a6ec81763
+modified: 1617357790092
+created: 1617357790092
+name: Licenses
+description: Manage licenses. See project endpoints to list and create licenses
+  for a particular project.
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1617357790092

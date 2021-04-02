@@ -1,0 +1,33 @@
+_id: findOrganizationDevices
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176307605242
+modified: 1617357789873
+created: 1617357789873
+url: "{{ base_url }}/organizations/{{ id }}/devices"
+name: Retrieve all devices of an organization
+description: Provides a collection of devices for a given organization.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+  - name: page
+    disabled: true
+    value: "1"
+  - name: per_page
+    disabled: true
+    value: "10"
+headers: []
+authentication: {}
+metaSortKey: -1617357789873
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

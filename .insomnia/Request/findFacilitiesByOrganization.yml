@@ -1,0 +1,27 @@
+_id: findFacilitiesByOrganization
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639d0a833e
+modified: 1617357789892
+created: 1617357789892
+url: "{{ base_url }}/organizations/{{ id }}/facilities"
+name: Retrieve all facilities visible by the organization
+description: Returns a listing of available datacenters for the given organization
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789892
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

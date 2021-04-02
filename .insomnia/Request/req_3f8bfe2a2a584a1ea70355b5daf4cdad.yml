@@ -1,0 +1,27 @@
+_id: req_3f8bfe2a2a584a1ea70355b5daf4cdad
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763fe281ba3
+modified: 1617358031865
+created: 1617358031865
+url: "{{ base_url }}/incidents"
+name: Retrieve the number of incidents
+description: Retrieve the number of incidents.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617358031865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

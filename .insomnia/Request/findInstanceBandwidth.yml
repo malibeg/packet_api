@@ -1,0 +1,27 @@
+_id: findInstanceBandwidth
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789825
+created: 1617357789825
+url: "{{ base_url }}/devices/{{ id }}/bandwidth"
+name: Retrieve an instance bandwidth
+description: Retrieve an instance bandwidth for a given period of time.
+method: GET
+body: {}
+parameters:
+  - name: from
+    disabled: false
+    value: string
+  - name: until
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789825
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

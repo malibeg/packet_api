@@ -1,0 +1,30 @@
+_id: findDeviceById
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763df485c87
+modified: 1617357789851
+created: 1617357789851
+url: "{{ base_url }}/devices/{{ id }}"
+name: Retrieve a device
+description: >-
+  Type-specific options (such as facility for baremetal devices) will be
+  included as part of the main data structure.
+                           State value can be one of: active inactive queued or provisioning
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

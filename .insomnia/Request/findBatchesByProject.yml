@@ -1,0 +1,27 @@
+_id: findBatchesByProject
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357790013
+created: 1617357790013
+url: "{{ base_url }}/projects/{{ id }}/batches"
+name: Retrieve all batches by project
+description: Returns all batches for the given project
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357790013
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

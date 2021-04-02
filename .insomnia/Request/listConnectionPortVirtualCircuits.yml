@@ -1,0 +1,23 @@
+_id: listConnectionPortVirtualCircuits
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817638f3509b6
+modified: 1617357789791
+created: 1617357789791
+url: "{{ base_url }}/connections/{{ connection_id }}/ports/{{ port_id
+  }}/virtual-circuits"
+name: List a connection port's virtual circuits
+description: List the virtual circuit record(s) associatiated with a particular
+  connection port.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789791
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: findVirtualNetworks
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357789118
+created: 1617357789118
+url: "{{ base_url }}/projects/{{ id }}/virtual-networks"
+name: Retrieve all virtual networks
+description: Provides a list of virtual networks for a single project.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+  - name: facility
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789118
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

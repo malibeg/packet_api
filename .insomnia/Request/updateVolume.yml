@@ -1,0 +1,33 @@
+_id: updateVolume
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789167
+created: 1617357789167
+url: "{{ base_url }}/storage/{{ id }}"
+name: Update the volume
+description: Updates the volume.
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "description": "string",
+      "size": 0,
+      "locked": true,
+      "billing_cycle": "string",
+      "customdata": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789167
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

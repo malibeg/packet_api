@@ -1,0 +1,21 @@
+_id: getInterconnection
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817638f3509b6
+modified: 1617357789811
+created: 1617357789811
+url: "{{ base_url }}/connections/{{ connection_id }}"
+name: Get connection
+description: Get the details of a connection
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789811
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

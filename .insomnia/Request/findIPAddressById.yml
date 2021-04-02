@@ -1,0 +1,27 @@
+_id: findIPAddressById
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763eca8307f
+modified: 1617357789647
+created: 1617357789647
+url: "{{ base_url }}/ips/{{ id }}"
+name: Retrieve an ip address
+description: Returns a single ip address if the user has access.
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789647
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

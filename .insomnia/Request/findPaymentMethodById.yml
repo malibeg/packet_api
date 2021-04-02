@@ -1,0 +1,27 @@
+_id: findPaymentMethodById
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176334933272
+modified: 1617357789452
+created: 1617357789452
+url: "{{ base_url }}/payment-methods/{{ id }}"
+name: Retrieve a payment method
+description: Returns a payment method
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789452
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

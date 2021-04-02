@@ -1,0 +1,22 @@
+_id: findOperatingSystems
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763d6ebeb72
+modified: 1617357789517
+created: 1617357789517
+url: "{{ base_url }}/operating-systems"
+name: Retrieve all operating systems
+description: Provides a listing of available operating systems to provision your
+  new device with.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789517
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

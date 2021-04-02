@@ -1,0 +1,31 @@
+_id: createPaymentMethod1
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176334933272
+modified: 1617357789455
+created: 1617357789455
+url: "{{ base_url }}/organizations/{{ id }}/payment-methods"
+name: Create a payment method for the given organization
+description: Creates a payment method.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "nonce": "string",
+      "default": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

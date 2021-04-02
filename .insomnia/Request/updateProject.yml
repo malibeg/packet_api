@@ -1,0 +1,32 @@
+_id: updateProject
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357789297
+created: 1617357789297
+url: "{{ base_url }}/projects/{{ id }}"
+name: Update the project
+description: Updates the project.
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "payment_method_id": "string",
+      "backend_transfer_enabled": true,
+      "customdata": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789297
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

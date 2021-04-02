@@ -1,0 +1,24 @@
+_id: disbondPort
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176316c2eb4d
+modified: 1617357789386
+created: 1617357789386
+url: "{{ base_url }}/ports/{{ id }}/disbond"
+name: Disabling bonding
+description: Disabling bonding for one or all ports
+method: POST
+body: {}
+parameters:
+  - name: bulk_disable
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1617357789386
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: deleteVolumeSnapshot
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789183
+created: 1617357789183
+url: "{{ base_url }}/storage/{{ volume_id }}/snapshots/{{ id }}"
+name: Delete volume snapshot
+description: Delete volume snapshot.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789183
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

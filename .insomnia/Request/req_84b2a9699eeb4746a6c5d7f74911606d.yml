@@ -1,0 +1,26 @@
+_id: req_84b2a9699eeb4746a6c5d7f74911606d
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763e0c52686
+modified: 1617358031440
+created: 1617358031440
+url: "{{ base_url }}/hardware-reservations/{{ id }}/move"
+name: Move a hardware reservation
+description: Move a hardware reservation to another project
+method: POST
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617358031440
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

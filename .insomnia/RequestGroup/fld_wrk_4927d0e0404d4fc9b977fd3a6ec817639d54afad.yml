@@ -1,0 +1,12 @@
+_id: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639d54afad
+type: RequestGroup
+parentId: wrk_4927d0e0404d4fc9b977fd3a6ec81763
+modified: 1617357790037
+created: 1617357790037
+name: VLANs
+description: Manage virtual networks (VLANs). See project endpoints to list and
+  create virtual networks. Check out the product docs to learn more about
+  [VLANs](https://metal.equinix.com/developers/docs/networking/layer2/).
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1617357790037

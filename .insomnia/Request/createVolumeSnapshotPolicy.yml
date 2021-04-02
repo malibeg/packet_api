@@ -1,0 +1,27 @@
+_id: createVolumeSnapshotPolicy
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176339c0ee03
+modified: 1617357789181
+created: 1617357789181
+url: "{{ base_url }}/storage/{{ id }}/snapshot-policies"
+name: Create a volume snapshot policy
+description: Creates a new snapshot policy of your volume.
+method: POST
+body: {}
+parameters:
+  - name: snapshot_count
+    disabled: true
+    value: "0"
+  - name: snapshot_frequency
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

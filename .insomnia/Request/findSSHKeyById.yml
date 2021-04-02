@@ -1,0 +1,27 @@
+_id: findSSHKeyById
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763f4547da2
+modified: 1617357789223
+created: 1617357789223
+url: "{{ base_url }}/ssh-keys/{{ id }}"
+name: Retrieve a ssh key
+description: Returns a single ssh key if the user has access
+method: GET
+body: {}
+parameters:
+  - name: include
+    disabled: true
+    value: string
+  - name: exclude
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

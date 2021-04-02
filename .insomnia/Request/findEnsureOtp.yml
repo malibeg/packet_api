@@ -1,0 +1,22 @@
+_id: findEnsureOtp
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639eb2308d
+modified: 1617357789478
+created: 1617357789478
+url: "{{ base_url }}/user/otp/verify/{{ otp }}"
+name: Verify user by providing an OTP
+description: It verifies the user once a valid OTP is provided. It gives back a
+  session token, essentially logging in the user.
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

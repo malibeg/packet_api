@@ -1,0 +1,11 @@
+_id: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639eb2308d
+type: RequestGroup
+parentId: wrk_4927d0e0404d4fc9b977fd3a6ec81763
+modified: 1617357790080
+created: 1617357790080
+name: Otps
+description: Otps ManagementCheck out the product docs to learn more about
+  [OTP](https://metal.equinix.com/developers/docs/accounts/two-factor-authentication/).
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1617357790080

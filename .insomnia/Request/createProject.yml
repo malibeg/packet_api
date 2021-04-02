@@ -1,0 +1,33 @@
+_id: createProject
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec8176353e890d5
+modified: 1617357789305
+created: 1617357789305
+url: "{{ base_url }}/projects"
+name: Create a project
+description: Creates a new project for the user default organization. If the
+  user don't have an organization, a new one will be created.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "organization_id": "string",
+      "payment_method_id": "string",
+      "customdata": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1617357789306
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

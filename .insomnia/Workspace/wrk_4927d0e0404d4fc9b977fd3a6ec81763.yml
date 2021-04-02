@@ -1,0 +1,9 @@
+_id: wrk_4927d0e0404d4fc9b977fd3a6ec81763
+type: Workspace
+parentId: null
+modified: 1617357790209
+created: 1617357790209
+name: Metal API 1.0.0
+description: This is the API for Equinix Metal Product. Interact with your
+  devices, user account, and projects.
+scope: design

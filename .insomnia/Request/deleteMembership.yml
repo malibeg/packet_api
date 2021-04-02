@@ -1,0 +1,21 @@
+_id: deleteMembership
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec81763e351fc50
+modified: 1617357789571
+created: 1617357789571
+url: "{{ base_url }}/memberships/{{ id }}"
+name: Delete the membership
+description: Deletes the membership.
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789571
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

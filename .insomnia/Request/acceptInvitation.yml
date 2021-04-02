@@ -1,0 +1,21 @@
+_id: acceptInvitation
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639b69a35a
+modified: 1617357789753
+created: 1617357789753
+url: "{{ base_url }}/invitations/{{ id }}"
+name: Accept an invitation
+description: Accept an invitation.
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1617357789753
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

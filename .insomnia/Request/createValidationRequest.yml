@@ -1,0 +1,24 @@
+_id: createValidationRequest
+type: Request
+parentId: fld_wrk_4927d0e0404d4fc9b977fd3a6ec817639914f7ad
+modified: 1617357789121
+created: 1617357789121
+url: "{{ base_url }}/verify-email"
+name: Create an email verification request
+description: Creates an email verification request
+method: POST
+body: {}
+parameters:
+  - name: login
+    disabled: false
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1617357789121
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_env_1cb654cde5cdc96ce294d189f62d6478f62f6c2a_sub
+type: Environment
+parentId: env_1cb654cde5cdc96ce294d189f62d6478f62f6c2a
+modified: 1617357790185
+created: 1617357790185
+name: Swagger env
+data:
+  base_path: /metal/v1
+  scheme: https
+  host: api.equinix.com
+dataPropertyOrder: null
+color: null
+isPrivate: false
+metaSortKey: 1617357790185
